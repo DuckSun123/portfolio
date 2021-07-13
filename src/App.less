@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.less';
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/fonts/Metropolis-Black.otf') format('opentype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Metropolis', 'NanumSquare', sans-serif;
+}
+
+.ant-layout-content {
+  margin-top: 64PX;
+}
+
+@media screen and (max-width: 640px){
+  .ant-layout-content {
+    margin-top: 120px;
+  }
+}
