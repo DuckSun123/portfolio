@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4369501a.chunk.css",
+    "main.js": "/portfolio/static/js/main.76dda189.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.76dda189.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.58ac6e18.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.58ac6e18.js.map",
+    "static/js/2.127d6fad.chunk.js": "/portfolio/static/js/2.127d6fad.chunk.js",
+    "static/js/2.127d6fad.chunk.js.map": "/portfolio/static/js/2.127d6fad.chunk.js.map",
+    "static/js/3.38be4e48.chunk.js": "/portfolio/static/js/3.38be4e48.chunk.js",
+    "static/js/3.38be4e48.chunk.js.map": "/portfolio/static/js/3.38be4e48.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.4369501a.chunk.css.map": "/portfolio/static/css/main.4369501a.chunk.css.map",
+    "static/js/2.127d6fad.chunk.js.LICENSE.txt": "/portfolio/static/js/2.127d6fad.chunk.js.LICENSE.txt",
+    "static/media/App.less": "/portfolio/static/media/Metropolis-Black.1510951e.otf",
+    "static/media/good.94524e17.png": "/portfolio/static/media/good.94524e17.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58ac6e18.js",
+    "static/js/2.127d6fad.chunk.js",
+    "static/css/main.4369501a.chunk.css",
+    "static/js/main.76dda189.chunk.js"
+  ]
+}
