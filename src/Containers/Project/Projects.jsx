@@ -47,8 +47,12 @@ const Projects = () => {
                 {showProject.content}
 
                 <br />
+                <br />
+
                 {showProject.demo && showProject.demo.map((demo, index) => (
-                    <a href={demo} key={index} target="_blank" rel="noopener noreferrer">See Demo</a>
+                    <a href={demo} style={{
+                        fontSize: '1.2em'
+                    }} key={index} target="_blank" rel="noopener noreferrer">See Demo</a>
                 ))}
             </Modal>
         </div>
