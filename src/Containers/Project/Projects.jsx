@@ -43,9 +43,13 @@ const Projects = () => {
                 {projectList.map((item) => <Card key={item.key} item={item} onClick={showModal} />)}
             </div>
 
-            <Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-                {showProject.title}
+            <Modal title={showProject.title} footer={[]} visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
                 {showProject.content}
+
+                <br />
+                {showProject.demo && showProject.demo.map((demo, index) => (
+                    <a href={demo} key={index} target="_blank" rel="noopener noreferrer">See Demo</a>
+                ))}
             </Modal>
         </div>
     );

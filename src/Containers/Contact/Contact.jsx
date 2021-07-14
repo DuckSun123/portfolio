@@ -5,7 +5,8 @@ const Contact = () => {
         <div id="contackContainer">
             <h3>CONTACT</h3>
             
-            <p>이메일: <a href="mailto:happiness-0613@naver.com">happiness-0613@naver.com</a></p>
+            <p><a href="mailto:happiness-0613@naver.com">happiness-0613@naver.com</a></p>
+            <p><a href>010-7252-2389</a></p>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Button, PageHeader } from 'antd';
+import { Layout, PageHeader } from 'antd';
 
 import './index.less';
 
@@ -9,7 +9,7 @@ const HeaderContainer = () => {
     <Header style={{ position: 'fixed', zIndex: 2, width: '100%' }}>
       <PageHeader
         className="site-page-header"
-        title="Jae Huyck Lee"
+        title="Jae Hyuck Lee"
         extra={[
           <a key="about" href="#aboutContainer">About Me</a>,
           <a key="project" href="#projectContainer">Project</a>,

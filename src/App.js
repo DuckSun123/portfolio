@@ -6,7 +6,7 @@ import About from './Containers/About/About';
 import TypistContainer from './Containers/Typist/TypistContainer';
 import Contact from './Containers/Contact/Contact';
 
-const {  Footer,  Content } = Layout;
+const {  Content } = Layout;
 function App() {
   return (
     <Layout>
