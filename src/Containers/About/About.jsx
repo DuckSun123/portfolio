@@ -25,8 +25,13 @@ const About = () => {
                             ))}
                         </Timeline>
                     </div>
+                    
                 </div>
             </div>
+            <p className="desc-content">
+                "많은 경험과 인내심만 있다면 뭐든지 할 수 있다."<br />
+                개발의 모든 것을 할 수 있는 날까지 노력하겠습니다!
+            </p>
             <div className="skill-wrap">
                 <h3>SKILLS</h3>
                 <ul>

@@ -1,5 +1,13 @@
 #aboutContainer {
     overflow-x: hidden;
+    .desc-content {
+        text-align: center;
+        font-size: 2em;
+        padding: 0 24px;
+        margin-top: -133px;
+        margin-bottom: 133px;
+    }
+
     .about-flex-container {
         min-height: 100vh;
         display: flex;
@@ -116,9 +124,15 @@
             }
         }
     }
-
 }
 
+@media screen and (max-width: 1200px) {
+    #aboutContainer {
+        .desc-content {
+            margin: 0;
+        }
+    }
+}
 
 @media screen and (max-width: 800px) {
     #aboutContainer {
